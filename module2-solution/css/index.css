@@ -1,0 +1,108 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Roboto', san-serif, arial;
+}
+
+h1
+{
+	width: 150px;
+	margin: 40px auto;
+}
+
+.section-tittle
+{
+	float:right;
+	width: 100%;
+	background: #00f4c2;
+	text-align: right;
+	margin-bottom: 1em;
+}
+
+
+.row
+{
+	width: 90%;
+	margin:auto;
+}
+
+.content-box
+{
+	background-color: #e0b53f;
+	border: 1px solid red;
+}
+.content-box>p{
+	padding:1em;
+}
+
+@media (min-width: 992px){
+	
+	.col-window-1, .col-window-2, .col-window-3, .col-window-4, .col-window-5, 
+	.col-window-6, .col-window-7, .col-window-8, .col-window-9, .col-window-10, 
+	.col-window-11, .col-window-12
+	{
+		float: left;
+		padding: 10px;
+	}
+	.col-window-1{width: 8.33%;}
+	.col-window-2{width: 16.66%;}
+	.col-window-3{width: 25%;}
+	.col-window-4{width: 33.33%;}
+	.col-window-5{width: 41.66%;}
+	.col-window-6{width: 50%;}
+	.col-window-7{width: 58.33%;}
+	.col-window-8{width: 66.33%;}
+	.col-window-9{width: 75%;}
+	.col-window-10{width: 83.33%;}
+	.col-window-11{width: 91.66%;}
+	.col-window-12{width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+	.col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, 
+	.col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, 
+	.col-tablet-11, .col-tablet-12
+	{
+		margin-bottom: 15px;
+		padding: 10px;
+		float: left;
+	}
+	.col-tablet-1{width: 8.33%;}
+	.col-tablet-2{width: 16.66%;}
+	.col-tablet-3{width: 25%;}
+	.col-tablet-4{width: 33.33%;}
+	.col-tablet-5{width: 41.66%;}
+	.col-tablet-6{width: 50%;}
+	.col-tablet-7{width: 58.33%;}
+	.col-tablet-8{width: 66.33%;}
+	.col-tablet-9{width: 75%;}
+	.col-tablet-10{width: 83.33%;}
+	.col-tablet-11{width: 91.66%;}
+	.col-tablet-12{width: 100%;}
+}
+
+@media (max-width: 767px){
+	.col-mobile-1, .col-mobile-2, .col-mobile-3, .col-mobile-4, .col-mobile-5, 
+	.col-mobile-6, .col-mobile-7, .col-mobile-8, .col-mobile-9, .col-mobile-10, 
+	.col-mobile-11, .col-mobile-12
+	{
+		margin-bottom: 15px;
+		float: left;
+		padding: 10px;
+	}
+	.col-mobile-1{width: 8.33%;}
+	.col-mobile-2{width: 16.66%;}
+	.col-mobile-3{width: 25%;}
+	.col-mobile-4{width: 33.33%;}
+	.col-mobile-5{width: 41.66%;}
+	.col-mobile-6{width: 50%;}
+	.col-mobile-7{width: 58.33%;}
+	.col-mobile-8{width: 66.33%;}
+	.col-mobile-9{width: 75%;}
+	.col-mobile-10{width: 83.33%;}
+	.col-mobile-11{width: 91.66%;}
+	.col-mobile-12{width: 100%;}
+}
